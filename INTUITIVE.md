@@ -67,7 +67,7 @@ A **field** that governs alignment. A **force** that emerges when wavefunctions 
 - When wavefunctions stay coherent, they interfere — creating spatial structure (interference pattern).
 - When decoherence occurs (e.g. via observation), the structure disappears.
 
-**→ Coherence literally **builds the geometry** of probability — and perhaps even spacetime itself.**
+**→ Coherence literally **builds the geometry** of probability — and even spacetime itself.**
 
 ---
 
