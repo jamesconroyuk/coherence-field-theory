@@ -12,7 +12,7 @@ These constants must be inferred from observations. Here, we demonstrate that *t
 ## Case 1: NGC 4319 / Markarian 205
 
 **Anomaly:**  
-Quasar (redshift $( z \approx 0.6 )$) appears physically connected to galaxy (redshift $( z \approx 0.07 )$). Standard cosmology forbids such a connection.
+Quasar (redshift $( z \approx 0.6 )$ ) appears physically connected to galaxy (redshift $( z \approx 0.07 )$ ). Standard cosmology forbids such a connection.
 
 **Observed Setup:**
 
@@ -24,29 +24,21 @@ Quasar (redshift $( z \approx 0.6 )$) appears physically connected to galaxy (re
 **Redshift Calculation:**
 
 The observed coherence-induced redshift is given by:
-$$
-\frac{\lambda_{\text{obs}}}{\lambda_{\text{emit}}} = \sqrt{1 + 2\epsilon C}
-$$
+$$\frac{\lambda_{\text{obs}}}{\lambda_{\text{emit}}} = \sqrt{1 + 2\epsilon C}$$
 
 Substitute:
-$$
-C = \beta B^2 \cdot \rho = \beta \cdot (10^4)^2 \cdot 10^{-22} = \beta \cdot 10^{-14}
-$$
+$$C = \beta B^2 \cdot \rho = \beta \cdot (10^4)^2 \cdot 10^{-22} = \beta \cdot 10^{-14}$$
 
 We solve:
-$$
-\sqrt{1 + 2\epsilon \cdot \beta \cdot 10^{-14}} \approx 1.6
-\Rightarrow 2\epsilon \beta \cdot 10^{-14} \approx 1.56
-$$
+$$\sqrt{1 + 2\epsilon \cdot \beta \cdot 10^{-14}} \approx 1.6
+\Rightarrow 2\epsilon \beta \cdot 10^{-14} \approx 1.56$$
 
 Try:
 - $( \beta \approx 10^{10} )$
 - $( \epsilon \approx 10^{-4} )$
 
 Then:
-$$
-2 \cdot 10^{-4} \cdot 10^{10} \cdot 10^{-14} = 0.02 \Rightarrow \sqrt{1 + 0.02} \approx 1.6 \, \checkmark
-$$
+$$2 \cdot 10^{-4} \cdot 10^{10} \cdot 10^{-14} = 0.02 \Rightarrow \sqrt{1 + 0.02} \approx 1.6 \, \checkmark$$
 
 **Fit is successful.**
 
@@ -65,24 +57,17 @@ Observed redshift dispersion $( \Delta z \approx 0.01 )$ exceeds predictions fro
 
 **Redshift Calculation:**
 
-$$
-C = \beta B^2 \cdot \rho = \beta \cdot (10^5)^2 \cdot 10^{-20} = \beta \cdot 10^{-10}
-$$
+$$C = \beta B^2 \cdot \rho = \beta \cdot (10^5)^2 \cdot 10^{-20} = \beta \cdot 10^{-10}$$
 
 Solve:
-$$
-\sqrt{1 + 2\epsilon \cdot \beta \cdot 10^{-10}} \approx 1.01
-\Rightarrow 2\epsilon \beta \cdot 10^{-10} \approx 0.02
-$$
+$$\sqrt{1 + 2\epsilon \cdot \beta \cdot 10^{-10}} \approx 1.01 \Rightarrow 2\epsilon \beta \cdot 10^{-10} \approx 0.02$$
 
 Using the same:
 - $( \beta \approx 10^{10} )$
 - $( \epsilon \approx 10^{-4} )$
 
 Then:
-$$
-2 \cdot 10^{-4} \cdot 10^{10} \cdot 10^{-10} = 0.02 \Rightarrow \sqrt{1 + 0.02} \approx 1.01 \, \checkmark
-$$
+$$2 \cdot 10^{-4} \cdot 10^{10} \cdot 10^{-10} = 0.02 \Rightarrow \sqrt{1 + 0.02} \approx 1.01 \, \checkmark$$
 
 **Again: fits cleanly.**
 

@@ -40,9 +40,7 @@ The coherence scalar field $C(x,t)$ is defined as a measure of local phase align
 
 ### A. Field Equation
 
-$$
-\square C = -\beta T^\mu_{\ \mu}
-$$
+$$\square C = -\beta T^\mu_{\ \mu}$$
 
 Where:
 - $\square$ is the d'Alembert operator (wave operator).
@@ -53,10 +51,8 @@ Where:
 
 Coherence modifies flat Minkowski space:
 
-$$
-g_{00} = -(1 + 2\varepsilon C) \\
-g_{ij} = (1 - 2\varepsilon C) \delta_{ij}
-$$
+$$g_{00} = -(1 + 2\varepsilon C) \\
+g_{ij} = (1 - 2\varepsilon C) \delta_{ij}$$
 
 This mimics gravity in the weak-field limit.
 
@@ -64,19 +60,15 @@ This mimics gravity in the weak-field limit.
 
 In static settings:
 
-$$
-\nabla^2 C = \beta \rho
-$$
+$$\nabla^2 C = \beta \rho$$
 
-This reproduces Newtonian gravity, where the potential $ \Phi(x) $ emerges from $ C(x) $ via $ C \propto \Phi $.
+This reproduces Newtonian gravity, where the potential $\Phi(x)$ emerges from $C(x)$ via $C \propto \Phi$.
 
 ### D. Cosmological Evolution
 
 In homogeneous cosmology:
 
-$$
-\ddot{C} = \beta (\rho - 3p)
-$$
+$$\ddot{C} = \beta (\rho - 3p)$$
 
 This parallels acceleration equations in Friedmann–Lemaître cosmology.
 
